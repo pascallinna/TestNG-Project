@@ -1,0 +1,18 @@
+<suite name="Suite"> parallel='methods' thread-count="2">
+    <test name = "Validate_Add_CategoryTest">
+        <classes>
+            <class name = "test.Validate_Add_CategoryTest"/>
+        </classes>
+    </test>
+    <test name = "Validate_Month_DropdownTest">
+        <classes>
+            <class name = "test.Validate_Month_DropdownTest"/>
+        </classes>
+    </test>
+    <test name = "Validate_Duplicate_CategoryTest">
+        <classes>
+            <class name = "test.Validate_Duplicate_CategoryTest"/>
+        </classes>
+    </test>
+
+</suite>
